@@ -1,0 +1,14 @@
+version: '2'
+
+services:
+  tomcat-api:
+    container_name: tomcat-container-api
+    build: ../api.socialanimal.com
+    expose:
+      - "8081"
+      
+  tomcat-data:
+    container_name: tomcat-container-data
+    build: ../data.socialanimal.com
+    expose:
+      - "8082"
