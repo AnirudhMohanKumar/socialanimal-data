@@ -1,4 +1,4 @@
-/mytools/
+/Users/
 /target/*
 !target/*.war
 !.mvn/wrapper/maven-wrapper.jar
