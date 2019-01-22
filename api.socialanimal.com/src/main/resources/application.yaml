@@ -1,0 +1,15 @@
+server.port: 8081
+---
+
+spring:
+  profiles: local
+  
+url:
+  data: http://localhost:8082/
+---
+
+spring:
+ profiles: prod
+
+url:
+  data: http://localhost/
