@@ -12,4 +12,4 @@ spring:
  profiles: prod
 
 url:
-  data: http://localhost/
+  data: http://52.1.3.4:8082/
