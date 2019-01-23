@@ -1,6 +1,8 @@
 server:
   port: 8081
-logging.file: app.log
+logging:
+  file: app.log
+  level.com.socialanimal: DEBUG
 ---
 
 spring:

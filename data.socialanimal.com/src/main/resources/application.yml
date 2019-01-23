@@ -1,2 +1,5 @@
-server.port: 8082
-logging.file: app.log
+server:
+  port: 8082
+logging:
+  file: app.log
+  level.com.socialanimal: DEBUG

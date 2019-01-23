@@ -20,7 +20,7 @@ public class HomeController {
 		
 		RestTemplate restTemplate = new RestTemplate();
         String dataValue = restTemplate.getForObject(urlData, String.class);
-        log.info("Hello from API \n" + dataValue);
+        log.debug("Hello from API \n" + dataValue);
 		return "Hello from API <br>" + dataValue;
 	}
 }
