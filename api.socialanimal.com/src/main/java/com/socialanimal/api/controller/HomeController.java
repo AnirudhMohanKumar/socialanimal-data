@@ -15,8 +15,8 @@ public class HomeController {
 	
 	private static final Logger log = LoggerFactory.getLogger(HomeController.class);
 	
-	@GetMapping("/")
-	public String getHello() {
+	@GetMapping("/home")
+	public String getHome() {
 		
 		RestTemplate restTemplate = new RestTemplate();
         String dataValue = restTemplate.getForObject(urlData, String.class);
