@@ -10,6 +10,9 @@ spring:
   
 url:
   data: http://localhost:8082/
+logging:
+  file: api.log
+  level.com.socialanimal: DEBUG
 ---
 
 spring:
@@ -17,3 +20,6 @@ spring:
 
 url:
   data: http://52.1.2.4:8082/
+logging:
+  file: var/log/api.log
+  level.com.socialanimal: DEBUG
